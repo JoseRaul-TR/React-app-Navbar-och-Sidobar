@@ -13,13 +13,13 @@ import './App.css';
 
 function App() {
     return (
-        <div className="container-fluid p-0 d-flex flex-column" style={{ minHeight: '100vh', width: '100vw', backgroundColor: '#f8f9fa' }}>
+        <div className="app-container">
             <Navbar />
-            <div className="row flex-column flex-md-row flex-nowrap">
-                <div className="col-12 col-md-2 bg-light p-3">
+            <div className="content-wrapper">
+                <div className="sidebar bg-light p3">
                     <Sidebar />
                 </div>
-                <main className="col-md-10 p-4 d-flex flex-column">
+                <main className="main-content">
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/services" element={<Services />} />

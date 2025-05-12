@@ -2,11 +2,25 @@
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  width: 100vw;
+  background-color: #f8f9fa;
 }
 
 .content-wrapper {
   display: flex;
   flex: 1;
+}
+
+.sidebar {
+  width: auto; 
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .nav-link.active {
@@ -17,14 +31,9 @@
   font-weight: bold;
 }
 
-.main-content {
-  flex: 1;
-  padding: 20px;
-}
-
 .placeholder-content {
   padding: 20px;
-  border: 1px solid #ccc
+  border: 1px solid #ccc;
 }
 
 @media (max-width: 768px) {
