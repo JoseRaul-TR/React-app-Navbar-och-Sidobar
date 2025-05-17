@@ -13,9 +13,8 @@ export default function Footer() {
           >
             Min App
           </NavLink>
-          <br /> José Raúl Tenza Ramírez
           <br />
-          Alla rättigheter förbehållna
+          José Raúl Tenza Ramírez – Alla rättigheter förbehållna
         </p>
       </div>
     </footer>
